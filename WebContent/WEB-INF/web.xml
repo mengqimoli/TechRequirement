@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>HeBeiScience1</display-name>
+
+	<servlet>
+		<servlet-name>ZhuCeServlet</servlet-name>
+		<servlet-class>com.jee.yhservlet.ZhuCeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ZhuCeServlet</servlet-name>
+		<url-pattern>/zhuceServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DengLuServlet</servlet-name>
+		<servlet-class>com.jee.yhservlet.DengLuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DengLuServlet</servlet-name>
+		<url-pattern>/dengluServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExitServlet</servlet-name>
+		<servlet-class>com.jee.xtservlet.ExitServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExitServlet</servlet-name>
+		<url-pattern>/exitServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PowerServlet</servlet-name>
+		<servlet-class>com.jee.xtservlet.PowerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PowerServlet</servlet-name>
+		<url-pattern>/powerServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CZMMServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.CZMMServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CZMMServlet</servlet-name>
+		<url-pattern>/czmmServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TableServlet</servlet-name>
+		<servlet-class>com.jee.yhservlet.TableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TableServlet</servlet-name>
+		<url-pattern>/tableServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>XGTableServlet</servlet-name>
+		<servlet-class>com.jee.yhservlet.XGTableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XGTableServlet</servlet-name>
+		<url-pattern>/xgtableServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SCTableServlet</servlet-name>
+		<servlet-class>com.jee.yhservlet.SCTableServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SCTableServlet</servlet-name>
+		<url-pattern>/sctableServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>XGXXServlet</servlet-name>
+		<servlet-class>com.jee.yhservlet.XGXXServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XGXXServlet</servlet-name>
+		<url-pattern>/xgxxServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>XGMMServlet</servlet-name>
+		<servlet-class>com.jee.yhservlet.XGMMServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XGMMServlet</servlet-name>
+		<url-pattern>/xgmmServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>XSSHServlet</servlet-name>
+		<servlet-class>com.jee.xsshservlet.XSSHServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XSSHServlet</servlet-name>
+		<url-pattern>/xsshServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>BMSHServlet</servlet-name>
+		<servlet-class>com.jee.bmshservlet.BMSHServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BMSHServlet</servlet-name>
+		<url-pattern>/bmshServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>GLXGXXServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.GLXGXXServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GLXGXXServlet</servlet-name>
+		<url-pattern>/glxgxxServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SCYHServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.SCYHServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SCYHServlet</servlet-name>
+		<url-pattern>/scyhServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TJYHServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.TJYHServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TJYHServlet</servlet-name>
+		<url-pattern>/tjyhServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>JSGLServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.JSGLServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JSGLServlet</servlet-name>
+		<url-pattern>/jsglServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>XZJSServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.XZJSServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>XZJSServlet</servlet-name>
+		<url-pattern>/xzjsServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SCJSServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.SCJSServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SCJSServlet</servlet-name>
+		<url-pattern>/scjsServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>JSGLXLServlet</servlet-name>
+		<servlet-class>com.jee.glyservlet.JSGLXLServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JSGLXLServlet</servlet-name>
+		<url-pattern>/jsglxlServlet</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>Login.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
